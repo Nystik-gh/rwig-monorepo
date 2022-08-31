@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "rwig"
+	},
+	{
+		"path": "rwig\\patch"
+	},
+	{
+		"path": "rwig-common"
+	}
+],
+  "settings": {}
+}

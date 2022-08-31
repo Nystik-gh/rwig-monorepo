@@ -1,0 +1,15 @@
+[package]
+name = "rwig"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.64.0"
+
+[dependencies]
+detour = "0.8.0"
+winapi = { version = "0.3.7", features = ["minwindef", "windef", "winnt", "libloaderapi", "consoleapi"] }
+dll-syringe = { version = "0.13.1", features = ["into-x86-from-x64", "payload-utils"] }
+ipc-channel = "0.16.0"
+lazy_static = "1.4.0"
+widestring = "0.5.1"
+anyhow = "1.0.61"
+rwig-common = {path="../rwig-common"}
